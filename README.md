@@ -1,52 +1,43 @@
-> [!WARNING]
-> SpaceTheme for Discord will not get an update for the time being, as the whole theme will be rewritten from scratch.
+> [!ВНИМАНИЕ]
+> Тема SpaceTheme для Discord пока не будет обновляться, так как вся тема будет переписана с нуля.
 
 <div align="center">
 <h3><img height="52" src="./_assets/img/logo.png"></h3>
 
-![Endpoint Badge](https://img.shields.io/github/downloads/SpaceTheme/Discord/total?style=for-the-badge&labelColor=%23111111&color=%231e1e1e)
-![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Floc-counter.onrender.com%2F%3Frepo%3DSpaceTheme%2FDiscord%26branch%3Dmain&style=for-the-badge&label=Lines%20of%20Code&labelColor=%23111111&color=%231e1e1e)
+![Значок загрузок](https://img.shields.io/github/downloads/SpaceTheme/Discord/total?style=for-the-badge&labelColor=%23111111&color=%231e1e1e)
+![Значок линий кода](https://img.shields.io/endpoint?url=https%3A%2F%2Floc-counter.onrender.com%2F%3Frepo%3DSpaceTheme%2FDiscord%26branch%3Dmain&style=for-the-badge&label=Линии%20кода&labelColor=%23111111&color=%231e1e1e)
 [![Discord](https://img.shields.io/badge/discord-black?style=for-the-badge&logo=discord&logoColor=%23ffffff&labelColor=%235865F2&color=%235865F2)](https://discord.spacetheme.de)
 [![KoFi](https://img.shields.io/badge/kofi-dark?style=for-the-badge&logo=kofi&logoColor=%23fff&labelColor=%23ff5e5b&color=%23ff5e5b)](https://kofi.spacetheme.de)
-[![Website](https://img.shields.io/badge/website-back?style=for-the-badge&logo=googlechrome&logoColor=%23ffffff&labelColor=%23111111&color=%23111111)](https://spacetheme.de)
+[![Веб-сайт](https://img.shields.io/badge/website-back?style=for-the-badge&logo=googlechrome&logoColor=%23ffffff&labelColor=%23111111&color=%23111111)](https://spacetheme.de)
 <hr>
 </div>
 
-![Preview](./_assets/img/preview.png)
+![Превью](./_assets/img/preview.png)
 <details>
-    <summary>More images (v1.4.0-alpha)</summary>
+    <summary>Больше изображений (v1.4.0-alpha)</summary>
 
-|  Chat  |  Settings (currently disabled)  |
+|  Чат  |  Настройки (временно отключены)  |
 |  :---:  |  :---:  |
-|  ![Preview](./_assets/img/preview.png)  |  ![Preview](./_assets/img/preview.png)  |
-|  **Custom Channel Icons**  |  **Custom Gradient Username**  |
-|  ![Preview](./_assets/img/channelIcons.png)  |  ![Preview](./_assets/img/gradientUsername.png)  |
-|   **Custom Userbadges (currently not working)**  |
-|  ![Preview](./_assets/img/placeholder.png)  |
+|  ![Превью](./_assets/img/preview.png)  |  ![Превью](./_assets/img/preview.png)  |
+|  **Иконки кастомных каналов**  |  **Кастомные градиентные имена пользователей**  |
+|  ![Превью](./_assets/img/channelIcons.png)  |  ![Превью](./_assets/img/gradientUsername.png)  |
+|   **Кастомные значки пользователей (временно не работают)**  |
+|  ![Превью](./_assets/img/placeholder.png)  |
 </details>
 
-## ⚠️Warning⚠️
-Using third party clients (e.g. Vencord or BetterDiscord) is against the Discord Terms of Service (ToS). While nobody has ever been banned for simply using discord client mods, We are not responsible for anything that might happen to your account by using third party clients. Use at your own discretion!
+## ⚠️Внимание⚠️
+Использование сторонних клиентов (например, Vencord или BetterDiscord) противоречит Условиям использования Discord. Хотя никого не банили только за использование модификаций клиентов, мы не несем ответственности за любые последствия, которые могут произойти с вашим аккаунтом при использовании сторонних клиентов. Используйте на свой страх и риск!
 
-## Automatic installation (Recommended)
-1. Visit [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/). and follow the instructions to install the client mod.
-1. Download [SpaceTheme Installer](https://github.com/SpaceTheme/Installer/releases) or
-<br>Run the command in PowerShell:
-```ps1
-iwr -useb "https://spacetheme.de/discord.ps1" | iex
-```
-[Source](https://github.com/SpaceTheme/Installer/blob/main/cli/discord.ps1)
+## Ручная установка
+1. Посетите [Vencord](https://vencord.dev/) или [BetterDiscord](https://betterdiscord.app/) и следуйте инструкциям по установке модификации клиента.
+2. Установите файл `SpaceThemeRU.theme.css` из [Releases](https://github.com/noxygalaxy/SpaceTheme-Discord-RU/releases).
+3. Откройте Проводник и введите `%AppData%\Vencord\themes` или `%AppData%\BetterDiscord\themes` в адресной строке.
+4. Перетащите файл `SpaceThemeRU.theme.css` в эту папку.
+5. В Discord перейдите в Настройки пользователя > Темы и выберите SpaceTheme.
 
-## Manual installation
-1. Visit [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/). and follow the instructions to install the client mod.
-1. Get the `SpaceTheme.theme.css` file from [Releases](https://github.com/SpaceTheme/Discord/releases).
-1. Open the File Explorer and enter `%AppData%\Vencord\themes` or `%AppData%\BetterDiscord\themes` in the address bar.
-1. Drag and drop the `SpaceTheme.theme.css` file into the folder.
-1. In Discord, go to User Settings > Themes and select SpaceTheme.
+Готово! Наслаждайтесь новым видом Discord!
 
-Voila! Enjoy the new look of your Discord!
-
-## Plugin support
+## Поддержка плагинов
 ### Vencord
   - BetterFolders
   - Experiments
