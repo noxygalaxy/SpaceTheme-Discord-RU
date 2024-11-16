@@ -2,7 +2,7 @@
 * @name SpaceTheme
 * @author @spaceenergy
 * @version v1.4.0-alpha
-* @description SpaceTheme for Discord
+* @description SpaceTheme for Discord. RU fork by @noxygalaxy
 * @invite 7Zv8Xz3Vzn
 * @donate https://ko-fi.com/spacetheme
 * @authorLink https://github.com/SpaceEnergy
@@ -10,7 +10,7 @@
 * @website https://spacetheme.de
 **/
 
-@import url("https://raw.githubusercontent.com/SpaceTheme/Discord/main/core/main.css");
+@import url("https://spacetheme-dcord-ru/main/core/main.css");
 
 
 :root {
