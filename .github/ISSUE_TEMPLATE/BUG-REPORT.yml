@@ -1,45 +1,45 @@
-name: Bug Report
-description: Create a bug report to help us find and fix bugs!
-title: "[Bug]"
-labels: [bug]
+name: Сообщение о баге
+description: Сообщение о баге, чтобы помочь нам найти и исправить баги!
+title: "[Баг]"
+labels: [баг]
 body:
 - type: checkboxes
   attributes:
-    label: Before Reporting
+    label: Перед отправкой
     options:
-    - label: I found no existing issues matching my bug
+    - label: Я не нашел существующих проблем, соответствующих моему багу
       required: true
-    - label: I completely restarted Discord and checked if the bug is still there
+    - label: Я полностью перезапустил Discord и проверил, остаеться ли баг
       required: true
 - type: textarea
   attributes:
-    label: Describe the Bug!
+    label: Опишите баг!
     description: |
-      A clear and concise description of the bug.
+      Четкое и понятное описание бага.
 
-      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+      Подсказка: Вы можете прикрепить изображения, нажав на это поле, чтобы выделить его, а затем перетащив файлы.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Expected Behavior
-    description: A clear and concise description of what you expected to happen.
+    label: Ожидаемое поведение
+    description: Четкое и понятное описание того, что вы ожидали увидеть.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    label: Шаги для воспроизведения
+    description: Шаги для воспроизведения поведения.
     placeholder: |
-      1. Open modal
-      2. Click on dropdown
-      3. Scroll down
-      4. See bug...
+      1. Открыть настройки
+      2. Зайти во вкладку "Устройства"
+      3. Прокрутить вниз
+      4. Увидеть баг...
   validations:
     required: true
 - type: dropdown
   attributes:
-    label: Operating System
+    label: Операционная система
     options:
       - Windows
       - Linux
